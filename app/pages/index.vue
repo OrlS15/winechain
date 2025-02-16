@@ -74,7 +74,7 @@ function onDetect(detectedCodes: any) {
 
   <!-- batch info card -->
   <template v-if="batch">
-    <div class="flex justify-center items-center w-full">
+    <div class="flex justify-center items-center w-full mt-8">
       <WineBatchDetails :batch="batch" />
     </div>
   </template>
