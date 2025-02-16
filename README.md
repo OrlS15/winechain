@@ -1,10 +1,12 @@
-# WineChain
+# WineChain 🍷🔗
 
-WineChain is a university project developed for the Data Security course at the University of Salerno. This project leverages blockchain technology (Ethereum) to ensure the transparency and security of wine production. Administrators can create wine batches and add detailed information to the blockchain, while users can scan a QR code on the wine bottle to access the stored blockchain data.
+<img src="./public/images/logo.png" width="200" height="200" />
+
+WineChain is a university project developed for the Data Security course at the University of Salerno. This project leverages blockchain technology (Ethereum) to ensure the transparency and security of wine production. Administrators can create wine batches and add detailed information to the blockchain, while users can scan a QR code on the wine bottle to access the stored blockchain data. 🍇
 
 ## Table of Contents
 
-- [WineChain](#winechain)
+- [WineChain 🍷🔗](#winechain-)
   - [Table of Contents](#table-of-contents)
   - [Features](#features)
   - [Technologies](#technologies)
@@ -15,11 +17,11 @@ WineChain is a university project developed for the Data Security course at the 
 
 ## Features
 
-- **Blockchain Integration:** Securely stores wine batch information on the Ethereum blockchain.
-- **QR Code Verification:** Allows users to scan the QR code on the wine bottle to retrieve blockchain data.
-- **Admin Management:** Administrators can create and manage wine batches with detailed data.
-- **User Authentication:** Implements secure authentication using Better-auth with an SQLite database.
-- **Modern UI:** Built with Nuxt, TailwindCSS, and NuxtUI v3 for a responsive and sleek user experience.
+- **Blockchain Integration:** Securely stores wine batch information on the Ethereum blockchain. 🔒
+- **QR Code Verification:** Allows users to scan the QR code on the wine bottle to retrieve blockchain data. 📱
+- **Admin Management:** Administrators can create and manage wine batches with detailed data. 👩‍💻
+- **User Authentication:** Implements secure authentication using Better-auth with an SQLite database. 🔑
+- **Modern UI:** Built with Nuxt, TailwindCSS, and NuxtUI v3 for a responsive and sleek user experience. 🎨
 
 ## Technologies
 
@@ -40,11 +42,9 @@ WineChain is a university project developed for the Data Security course at the 
    _Clones the WineChain repository to your local machine._
 
 2. **Install Dependencies**
-
    ```bash
    pnpm install
    ```
-
    _Installs all required packages and dependencies for the project._
 
 ## Running the Project
@@ -68,11 +68,9 @@ WineChain is a university project developed for the Data Security course at the 
    _Starts a local Ethereum blockchain network. The terminal will display important configuration details required for later steps._
 
 3. **Deploy Smart Contracts**
-
    ```bash
    pnpm run hardhat:deploy
    ```
-
    _Deploys the compiled smart contracts to the local blockchain network._
 
 ### Setting Up the Application
@@ -108,9 +106,7 @@ WineChain is a university project developed for the Data Security course at the 
    ```
 
 4. **Start the Development Server**
-
    ```bash
    pnpm run dev
    ```
-
    _Launches the Nuxt development server, making the WineChain application accessible locally._
