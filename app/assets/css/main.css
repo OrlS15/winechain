@@ -1,0 +1,24 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+@theme {
+  --font-title: "ABeeZee", sans-serif;
+  --font-text: "Nunito", sans-serif;
+
+  --color-wine-DEFAULT: #4a0e2e;
+  --color-wine-50: #aa2064;
+  --color-wine-100: #a01e5e;
+  --color-wine-200: #8a1a53;
+  --color-wine-300: #751647;
+  --color-wine-400: #5f123b;
+  --color-wine-500: #4a0e2e;
+  --color-wine-600: #410c29;
+  --color-wine-700: #390b24;
+  --color-wine-800: #30091f;
+  --color-wine-900: #28081a;
+  --color-wine-950: #230717;
+}
+
+:root {
+  @apply font-text;
+}

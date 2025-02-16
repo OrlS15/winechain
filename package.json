@@ -1,0 +1,48 @@
+{
+  "name": "winechain",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "hardhat:start": "hardhat node",
+    "hardhat:compile": "hardhat compile",
+    "hardhat:deploy": "hardhat ignition deploy ./ignition/modules/WineChain.ts --network localhost",
+    "db:migrate": "npx @better-auth/cli migrate --config ./server/utils/auth.ts --y",
+    "db:seed-user": "tsx ./scripts/seed-user.ts"
+  },
+  "dependencies": {
+    "@nuxt/image": "1.8.1",
+    "@nuxt/ui": "3.0.0-alpha.10",
+    "@vueuse/integrations": "^12.4.0",
+    "@vueuse/router": "^12.4.0",
+    "better-auth": "^1.1.10",
+    "better-sqlite3": "^11.7.2",
+    "ethers": "^6.13.4",
+    "nuxt": "^3.14.1592",
+    "qrcode": "^1.5.4",
+    "vue": "latest",
+    "vue-qrcode-reader": "^5.6.0",
+    "vue-router": "latest",
+    "zod": "^3.24.1"
+  },
+  "packageManager": "pnpm@9.12.3+sha512.cce0f9de9c5a7c95bef944169cc5dfe8741abfb145078c0d508b868056848a87c81e626246cb60967cbd7fd29a6c062ef73ff840d96b3c86c40ac92cf4a813ee",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.8",
+    "@nomicfoundation/hardhat-ethers": "^3.0.8",
+    "@nomicfoundation/hardhat-ignition": "^0.15.9",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@typechain/ethers-v6": "^0.5.1",
+    "@typechain/hardhat": "^9.1.0",
+    "@types/better-sqlite3": "^7.6.12",
+    "@vueuse/nuxt": "^12.4.0",
+    "dotenv": "^16.4.7",
+    "hardhat": "^2.22.17",
+    "tailwindcss": "4.0.0-beta.8",
+    "tsx": "^4.19.2",
+    "typechain": "^8.3.2"
+  }
+}
